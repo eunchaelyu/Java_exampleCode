@@ -1,6 +1,6 @@
 package ch3;
 
-public class OperatorEx8 {
+public class OperatorEx08 {
     public static void main(String[] args) {
         int a = 1_000_000; //1백만
         int b = 2_000_000; //2백만
