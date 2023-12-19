@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package ch_05;
 import java.util.*;
 public class ArrayEx20 { //좌표에 X표 하기
     public static void main(String[] args) {
