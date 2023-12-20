@@ -1,6 +1,6 @@
 package ch_06;
 
-public class TvTest06 {
+public class MyMathTest_06 {
     public static void main(String[] args) {
         MyMath mm = new MyMath();
         long result1=mm.add(5L,3L);
