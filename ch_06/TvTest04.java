@@ -2,11 +2,11 @@ package ch_06;
 
 public class TvTest04 {
     public static void main(String[] args) {
-        Tv[] tvArr = new Tv[3]; //길이가 3인 Tv 객체 배열
+        Tv4[] tvArr = new Tv4[3]; //길이가 3인 Tv 객체 배열
 
         //Tv 객체를 생성해서 Tv 객체 배열의 각 요소에 저장
         for (int i = 0; i < tvArr.length; i++) {
-            tvArr[i] = new Tv();
+            tvArr[i] = new Tv4();
             tvArr[i].channel = i + 10;
         }
         for (int i = 0; i < tvArr.length; i++) {
@@ -15,7 +15,7 @@ public class TvTest04 {
         }
     }
 }
-class Tv{
+class Tv4{
     String color;
     boolean power;
     int channel;
